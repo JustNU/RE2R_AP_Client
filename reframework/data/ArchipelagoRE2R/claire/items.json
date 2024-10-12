@@ -494,7 +494,7 @@
     {
         "type": "Weapon",
         "name": "JMB Hp3",
-        "groups": ["pistol", "medium_gun"],
+        "groups": ["pistol", "light_gun"],
         "decimal": "3",
         "count": 13,
         "progression": 0,
@@ -611,6 +611,14 @@
         "name": "High-Capacity Mag - JMB Hp3",
         "upgrades": "JMB Hp3",
         "decimal": "54",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Upgrade",
+        "name": "Laser Sight (JMB Hp3)",
+        "upgrades": "JMB Hp3",
+        "decimal": "52",
         "count": 1,
         "progression": 0
     },
