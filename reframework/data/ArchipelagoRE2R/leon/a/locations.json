@@ -627,7 +627,7 @@
     {
         "name": "End of Desks",
         "region": "East Office",
-        "original_item": "Gunpowder",
+        "original_item": "Fuse - Main Hall",
         "condition": {},    
         "item_object": "sm73_722",
         "parent_object": "sm73_722_fuse_1st",
