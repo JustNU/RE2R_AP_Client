@@ -59,7 +59,7 @@ function Inventory.HasSpaceForItem()
         return false
     end
 
-    return #currentItems + 2 < Inventory.GetMaxSlots() -- leave a 2 slot padding for non-randomized pickups
+    return #currentItems < Inventory.GetMaxSlots()
 end
 
 function Inventory.HasItemId(item_id, weapon_id)
