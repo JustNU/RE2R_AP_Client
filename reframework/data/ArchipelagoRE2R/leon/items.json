@@ -443,7 +443,7 @@
         "name": "Matilda",
         "groups": ["pistol", "light_gun"],
         "decimal": "1",
-        "count": 10,
+        "count": 12,
         "progression": 0,
         "ammo": "Handgun Ammo"
     },
@@ -452,7 +452,7 @@
         "name": "M19",
         "groups": ["pistol", "light_gun"],
         "decimal": "2",
-        "count": 10,
+        "count": 7,
         "progression": 0,
         "ammo": "Large-Caliber Handgun Ammo"
     },
@@ -461,7 +461,7 @@
         "name": "W-870",
         "groups": ["shotgun", "medium_gun"],
         "decimal": "11",
-        "count": 10,
+        "count": 4,
         "progression": 0,
         "ammo": "Shotgun Shells"
     },
@@ -470,7 +470,7 @@
         "name": "Lightning Hawk",
         "groups": ["medium_gun"],
         "decimal": "31",
-        "count": 10,
+        "count": 7,
         "progression": 0,
         "ammo": "MAG Ammo"
     },
@@ -479,7 +479,7 @@
         "name": "Chemical Flamethrower",
         "groups": ["heavy_gun"],
         "decimal": "43",
-        "count": 200,
+        "count": 400,
         "progression": 0,
         "ammo": "Flamethrower Fuel"
     },
@@ -524,14 +524,14 @@
         "type": "Ammo",
         "name": "Handgun Ammo",
         "decimal": "15",
-        "count": 10,
+        "count": 25,
         "progression": 0
     },
     {
         "type": "Ammo",
         "name": "Large-Caliber Handgun Ammo",
         "decimal": "26",
-        "count": 6,
+        "count": 12,
         "progression": 0
     },
     {
@@ -545,14 +545,14 @@
         "type": "Ammo",
         "name": "Flamethrower Fuel",
         "decimal": "25",
-        "count": 100,
+        "count": 400,
         "progression": 0
     },
     {
         "type": "Ammo",
         "name": "MAG Ammo",
         "decimal": "18",
-        "count": 4,
+        "count": 6,
         "progression": 0
     },
 
