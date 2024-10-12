@@ -64,7 +64,7 @@
         "from": "Operations Room",
         "to": "Operations Room 2",
         "condition": {
-            "items": ["Bolt Cutters"]
+            "items": ["Bolt Cutters", "Spade Key"]
         }
     },
     { 
