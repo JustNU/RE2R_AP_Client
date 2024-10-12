@@ -548,6 +548,10 @@ function Archipelago.ReceiveItem(item_name, sender, is_randomized)
         if count == nil then
             count = 1
         end
+		
+		if item_ref.type == "Ammo" then
+			count = math.random(count)
+		end
 
         if item_ref.progression == 1 then
             item_color = "ce28f7"
