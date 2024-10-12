@@ -255,8 +255,7 @@
         "condition": {},    
         "item_object": "sm44_006_LeonDesk01A_control",
         "parent_object": "",
-        "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/LocationFsm_RPD/S02_0100/Claire_S02_0100/1FW/WestOffice/LeonDesk",
-        "randomized": 0
+        "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/LocationFsm_RPD/S02_0100/Claire_S02_0100/1FW/WestOffice/LeonDesk"
     },
     {
         "name": "Outside Darkroom 1",
@@ -352,7 +351,9 @@
         "name": "Locker Past Steam",
         "region": "Shower Room",
         "original_item": "Gunpowder",
-        "condition": {},    
+        "condition": {
+            "items": ["Valve Handle"]
+        },
         "item_object": "sm70_205",
         "parent_object": "ItemPositions_NormalLocker_2FW9",
         "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/2F/2FW/ShowerRoom/Locker_sm70_205_gunpowder"
@@ -1550,8 +1551,7 @@
         "condition": {},    
         "item_object": "sm73_411",
         "parent_object": "T_ji_crank",
-        "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/KeyItem",
-        "randomized": 0
+        "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/KeyItem"
     },
     {
         "name": "Downstairs Location 1",
