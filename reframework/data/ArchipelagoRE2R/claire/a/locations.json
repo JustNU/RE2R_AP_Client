@@ -7,7 +7,7 @@
         "item_object": "sm70_000",
         "parent_object": "sm70_000_Spray",
         "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/Hall",
-        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters"]
+        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters", "Spade Key"]
     },
     {
         "name": "Main Desk",
@@ -17,7 +17,7 @@
         "item_object": "sm70_100",
         "parent_object": "sm70_100_handgunB",
         "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/Hall",
-        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters"]
+        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters", "Spade Key"]
     },
     {
         "name": "Marvin's Knife",
@@ -37,7 +37,7 @@
         "item_object": "sm42_176_HieroglyphicDialLock01A_ForLion_control",
         "parent_object": "",
         "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/LocationFsm_RPD/S02_0000/Hall/LionStatue",
-        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters"]
+        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters", "Spade Key"]
     },
     {
         "name": "2F Couch",
@@ -47,7 +47,7 @@
         "item_object": "sm70_100",
         "parent_object": "sm70_100_HandgunB",
         "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/Hall",
-        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters"]
+        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters", "Spade Key"]
     },
     {
         "name": "Shelves",
@@ -57,7 +57,7 @@
         "item_object": "sm70_100",
         "parent_object": "sm70_100_HandgunB",
         "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/1F/1FE/SmallDepot",
-        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters"]
+        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters", "Spade Key"]
     },
     {
         "name": "Boxes",
@@ -67,7 +67,7 @@
         "item_object": "sm70_202",
         "parent_object": "sm70_202_mokuzai",
         "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/1F/1FE/SmallDepot",
-        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters"]
+        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters", "Spade Key"]
     },
     {
         "name": "Downed Zombie",
@@ -77,7 +77,7 @@
         "item_object": "sm70_100",
         "parent_object": "sm70_100_HandgunB",
         "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/1F/1FE/PressRoom",
-        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters"]
+        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters", "Spade Key"]
     },
     {
         "name": "Hiding Place Drawer",
@@ -88,8 +88,7 @@
         },    
         "item_object": "Test_2_1_DrawerDesk_1FE1_control",
         "parent_object": "",
-        "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/Claire_common/1F/1FE/PressRoom/DrawerDesk_1FEPressRoom_TreasurePhotoItem",
-        "randomized": 0
+        "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/Claire_common/1F/1FE/PressRoom/DrawerDesk_1FEPressRoom_TreasurePhotoItem"
     },
     {
         "name": "Second Stall",
@@ -99,7 +98,7 @@
         "item_object": "sm70_000",
         "parent_object": "ItemPositions_Toilet_1FE2",
         "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/LocationFsm_RPD/common/GeneralPurposeGimmicks/ToiletDoor",
-        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters"]
+        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters", "Spade Key"]
     },
     {
         "name": "Boxes",
@@ -108,7 +107,8 @@
         "condition": {},    
         "item_object": "sm70_001",
         "parent_object": "sm70_001_greenherb",
-        "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/1F/1FW/Reception"
+        "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/1F/1FW/Reception",
+        "forbid_item": ["Spade Key"]
     },
     {
         "name": "Couch",
@@ -117,7 +117,8 @@
         "condition": {},    
         "item_object": "sm70_100",
         "parent_object": "sm70_100_handgunB",
-        "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/1F/1FW/Reception"
+        "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/1F/1FW/Reception",
+        "forbid_item": ["Spade Key"]
     },
     {
         "name": "Side Table",
@@ -126,7 +127,8 @@
         "condition": {},    
         "item_object": "sm70_100",
         "parent_object": "sm70_100_handgunB",
-        "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/1F/1FW/MissionRoom"
+        "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/1F/1FW/MissionRoom",
+        "forbid_item": ["Spade Key"]
     },
     {
         "name": "Back of Hallway",
@@ -376,8 +378,7 @@
         },    
         "item_object": "sm44_004_WeskerDesk01A_control",
         "parent_object": "",
-        "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/LocationFsm_RPD/S02_0200/Claire_S02_0200/2FW/StarsOffice/WeskerDesk_Claire",
-        "randomized": 0
+        "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/LocationFsm_RPD/S02_0200/Claire_S02_0200/2FW/StarsOffice/WeskerDesk_Claire"
     },
     {
         "name": "Boxes By Door",
@@ -583,7 +584,6 @@
         "name": "Garbage Beside Door",
         "region": "Fire Escape",
         "original_item": "Bolt Cutters",
-        "force_item": "Maiden Medallion",
         "condition": {},    
         "item_object": "sm73_726",
         "parent_object": "sm73_726_ChainCutter",
@@ -713,8 +713,7 @@
         "condition": {},    
         "item_object": "sm73_103",
         "parent_object": "sm73_103_SpadeKey",
-        "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/3FHigher/3FW/3FWSmallRoom",
-        "randomized": 0
+        "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/3FHigher/3FW/3FWSmallRoom"
     },
     {
         "name": "Furniture By Door",
@@ -989,7 +988,7 @@
     },
     {
         "name": "Locker",
-        "region": "Parking Garage",
+        "region": "Elevator Controls Room",
         "original_item": "Shoulder Stock - GM 79",
         "condition": {
             "items": ["Diamond Key"]
@@ -1000,7 +999,7 @@
     },
     {
         "name": "Boxes Next to Table",
-        "region": "Parking Garage",
+        "region": "Elevator Controls Room",
         "original_item": "High-Grade Gunpowder - White",
         "condition": {
             "items": ["Diamond Key"]
@@ -1011,7 +1010,7 @@
     },
     {
         "name": "Corner of Room on Ground",
-        "region": "Parking Garage",
+        "region": "Elevator Controls Room",
         "original_item": "Blue Herb",
         "condition": {
             "items": ["Diamond Key"]
@@ -1208,7 +1207,6 @@
         "name": "After Helicopter Crash",
         "region": "East Hallway 2F",
         "original_item": "Red Herb",
-        "force_item": "Boxed Electronic Part 2",
         "condition": {
             "items": ["Lion Medallion", "Unicorn Medallion", "Maiden Medallion", "Mechanic Jack Handle", "Heart Key", "Diamond Key"]
         },
@@ -1367,7 +1365,7 @@
     {
         "name": "Table",
         "region": "Sewer Office",
-        "original_item": "High-Powered Rounds",
+        "original_item": "High-Powered Rounds (SLS 60)",
         "condition": {},    
         "item_object": "sm70_112",
         "parent_object": "sm70_112_ww_2",
@@ -1385,7 +1383,7 @@
     {
         "name": "In Front of Gate",
         "region": "Upper Waterway",
-        "original_item": "High-Powered Rounds",
+        "original_item": "High-Powered Rounds (SLS 60)",
         "condition": {},    
         "item_object": "sm70_112",
         "parent_object": "sm70_112_ww_3_01",
@@ -1421,7 +1419,7 @@
     {
         "name": "Down Elevator",
         "region": "Workers Break Room",
-        "original_item": "High-Powered Rounds",
+        "original_item": "High-Powered Rounds (SLS 60)",
         "condition": {},    
         "item_object": "sm70_112",
         "parent_object": "sm70_112_ww_2",
@@ -1583,7 +1581,7 @@
     {
         "name": "Before Lift 2",
         "region": "Workroom",
-        "original_item": "High-Powered Rounds",
+        "original_item": "High-Powered Rounds (SLS 60)",
         "condition": {},    
         "item_object": "sm70_112",
         "parent_object": "sm70_112_ww_2",
@@ -1614,7 +1612,8 @@
         "condition": {},    
         "item_object": "sm73_115",
         "parent_object": "ItemPositions_1",
-        "folder_path": "RopewayContents/World/Location_WasteWater/Environments/st3_611_0/gimmick"
+        "folder_path": "RopewayContents/World/Location_WasteWater/Environments/st3_611_0/gimmick",
+		"randomized": 0
     },
     {
         "name": "Right Table",
@@ -1668,7 +1667,8 @@
         "condition": {},    
         "item_object": "sm73_156",
         "parent_object": "ItemPositions_3",
-        "folder_path": "RopewayContents/World/Location_WasteWater/Environments/st3_625_0/gimmick"
+        "folder_path": "RopewayContents/World/Location_WasteWater/Environments/st3_625_0/gimmick",
+		"randomized": 0
     },
     {
         "name": "King Panel",
@@ -1837,7 +1837,7 @@
     {
         "name": "Sleeping Pod",
         "region": "Nap Room",
-        "original_item": "ID Wristband - General Staff",
+        "original_item": "Upgrade Chip (General Staff)",
         "condition": {},    
         "item_object": "sm73_423",
         "parent_object": "sm73_433_WristTagUpdater_Lv1",
@@ -1906,8 +1906,7 @@
         "condition": {},    
         "item_object": "sm42_222_SprayingMachine01A_control",
         "parent_object": "",
-        "folder_path": "RopewayContents/World/Location_Laboratory/LocationLevel_Laboratory/LocationFsm_Laboratory/S05_0100/T_Area/ControlRoom/SanpuSouchiTrue_CONV366,367,368_CF707",
-        "randomized": 0
+        "folder_path": "RopewayContents/World/Location_Laboratory/LocationLevel_Laboratory/LocationFsm_Laboratory/S05_0100/T_Area/ControlRoom/SanpuSouchiTrue_CONV366,367,368_CF707"
     },
     {
         "name": "Before Drug Testing Lab",
@@ -2047,14 +2046,14 @@
     {
         "name": "Downed Employee",
         "region": "Greenhouse",
-        "original_item": "ID Wristband - Senior Staff",
-        "force_item": "ID Wristband - Senior Staff",
+        "original_item": "Upgrade Chip (Senior Staff)",
         "condition": {
             "items": ["Signal Modulator"]
         },    
         "item_object": "sm73_434",
         "parent_object": "sm73_434_WristtagUpdater_Lv2",
-        "folder_path": "RopewayContents/World/Location_Laboratory/LocationLevel_Laboratory/Item/common/T_Area/GreenHouse"
+        "folder_path": "RopewayContents/World/Location_Laboratory/LocationLevel_Laboratory/Item/common/T_Area/GreenHouse",
+		"randomized": 0
     },
     {
         "name": "Downed Zombie",
@@ -2194,7 +2193,7 @@
     {
         "name": "2nd Table Right of Entrance",
         "region": "Bioreactors Room",
-        "original_item": "High-Powered Rounds",
+        "original_item": "High-Powered Rounds (SLS 60)",
         "condition": {},    
         "item_object": "sm70_112",
         "parent_object": "sm70_112_MagnumBClaire",
@@ -2271,7 +2270,8 @@
         "condition": {},    
         "item_object": "sm73_418",
         "parent_object": "sm73_418_2wakuItem",
-        "folder_path": "RopewayContents/World/Location_LaboratoryUndermost/LocationLevel_LaboratoryUndermost/Item/common/Claire_common"
+        "folder_path": "RopewayContents/World/Location_LaboratoryUndermost/LocationLevel_LaboratoryUndermost/Item/common/Claire_common",
+		"randomized": 0
     },
     {
         "name": "Final Battle By Item Box",

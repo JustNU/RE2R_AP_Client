@@ -181,17 +181,17 @@
     },
     {
         "type": "Key",
-        "name": "ID Wristband - General Staff",
+        "name": "Upgrade Chip (General Staff)",
         "groups": ["wristband", "bracelet", "id"],
-        "decimal": "201",
+        "decimal": "198",
         "count": 1,
         "progression": 1
     },
     {
         "type": "Key",
-        "name": "ID Wristband - Senior Staff",
+        "name": "Upgrade Chip (Senior Staff)",
         "groups": ["wristband", "bracelet", "id"],
-        "decimal": "202",
+        "decimal": "199",
         "count": 1,
         "progression": 1
     },
@@ -334,44 +334,6 @@
         "decimal": "179",
         "count": 1,
         "progression": 1
-    },
-    {
-        "type": "Gating",
-        "name": "Film - Commemorative",
-        "decimal": "74",
-        "count": 1,
-        "progression": 1,
-        "comments": "I swapped a few of these around, I think they're right but I have been wrong before."
-    },
-    {
-        "type": "Gating",
-        "name": "Film - Lion Statue",
-        "decimal": "76",
-        "count": 1,
-        "progression": 1,
-        "comments": "I swapped a few of these around, I think they're right but I have been wrong before."
-    },
-    {
-        "type": "Gating",
-        "name": "Film - 3F Locker",
-        "decimal": "75",
-        "count": 1,
-        "progression": 1
-    },
-    {
-        "type": "Gating",
-        "name": "Film - Hiding Place",
-        "decimal": "72",
-        "count": 1,
-        "progression": 1
-    },
-    {
-        "type": "Gating",
-        "name": "Film - Rising Rookie",
-        "decimal": "73",
-        "count": 1,
-        "progression": 1,
-        "comments": "I swapped a few of these around, I think they're right but I have been wrong before."
     },
 
     {
@@ -557,7 +519,7 @@
     },
     {
         "type": "Ammo",
-        "name": "High-Powered Rounds",
+        "name": "High-Powered Rounds (SLS 60)",
         "decimal": "27",
         "count": 5,
         "progression": 0
@@ -691,5 +653,36 @@
         "decimal": "203",
         "count": 1,
         "progression": 0
+    }
+	{
+        "type": "Lore",
+        "name": "Film - Commemorative",
+        "decimal": "74",
+        "count": 1,
+        "progression": 0,
+        "comments": "I swapped a few of these around, I think they're right but I have been wrong before."
+    },
+    {
+        "type": "Lore",
+        "name": "Film - Lion Statue",
+        "decimal": "76",
+        "count": 1,
+        "progression": 0,
+        "comments": "I swapped a few of these around, I think they're right but I have been wrong before."
+    },
+    {
+        "type": "Lore",
+        "name": "Film - 3F Locker",
+        "decimal": "75",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Lore",
+        "name": "Film - Rising Rookie",
+        "decimal": "73",
+        "count": 1,
+        "progression": 0,
+        "comments": "I swapped a few of these around, I think they're right but I have been wrong before."
     }
 ]
