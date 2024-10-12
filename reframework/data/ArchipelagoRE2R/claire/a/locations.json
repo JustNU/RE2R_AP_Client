@@ -514,7 +514,7 @@
         "item_object": "sm70_001",
         "parent_object": "sm70_001_Harb",
         "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/2F/2FE/WaitingRoom",
-        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters"]
+        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters", "Spade Key"]
     },
     {
         "name": "Safe Behind Desk",
@@ -524,7 +524,7 @@
         "item_object": "sm42_019_SafeBoxDial01A_OfficeE_control",
         "parent_object": "",
         "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/LocationFsm_RPD/S02_0000/Claire_S02_0000/2FE/2FWaitingRoom/IronSafe_2FE",
-        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters"]
+        "forbid_item": ["Fuse - Main Hall", "Fuse - Break Room Hallway", "Bolt Cutters", "Spade Key"]
     },
     {
         "name": "Table Near Door",
@@ -1204,8 +1204,8 @@
         "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/Claire_common/2F/2FE/ChiefStore"
     },
     {
-        "name": "After Helicopter Crash",
-        "region": "East Hallway 2F",
+        "name": "Hallway Corner",
+        "region": "Roof",
         "original_item": "Red Herb",
         "condition": {
             "items": ["Lion Medallion", "Unicorn Medallion", "Maiden Medallion", "Mechanic Jack Handle", "Heart Key", "Diamond Key"]
@@ -1837,7 +1837,7 @@
     {
         "name": "Sleeping Pod",
         "region": "Nap Room",
-        "original_item": "Upgrade Chip (General Staff)",
+        "original_item": "Upgrade Chip - General Staff",
         "condition": {},    
         "item_object": "sm73_423",
         "parent_object": "sm73_433_WristTagUpdater_Lv1",
@@ -2046,7 +2046,7 @@
     {
         "name": "Downed Employee",
         "region": "Greenhouse",
-        "original_item": "Upgrade Chip (Senior Staff)",
+        "original_item": "Upgrade Chip - Senior Staff",
         "condition": {
             "items": ["Signal Modulator"]
         },    
@@ -2303,7 +2303,7 @@
                 "Mechanic Jack Handle", "Small Gear", "Large Gear", 
                 "Boxed Electronic Part 1", "Boxed Electronic Part 2", "Parking Garage Key Card",
                 "T-Bar Handle", "Pawn Plug", "Knight Plug", "Bishop Plug", "Rook Plug", "Queen Plug", "King Plug", 
-                "ID Wristband - General Staff", "ID Wristband - Senior Staff", "Signal Modulator",
+                "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Signal Modulator",
                 "Joint Plug"
             ]
         },

@@ -9,14 +9,14 @@
         "to": "Main Hall",
         "condition": {}
     },
-    { 
+	{
         "from": "East Hallway 1F",
         "to": "Main Hall",
         "condition": {
 			"items": ["Fuse - Main Hall"]
 		},
 		"limitation": "ONE_SIDED_DOOR"
-    },
+	},
     { 
         "from": "East Hallway 1F",
         "to": "East Hallway 1F Closet",
@@ -37,16 +37,12 @@
         "to": "East Office",
         "condition": {
             "items": ["Bolt Cutters"]
-        },
-		"limitation": "ONE_SIDED_DOOR"
+        }
     },
     { 
         "from": "Main Hall",
         "to": "Reception - RPD",
-        "condition": {
-			"items": ["Combat Knife"]
-		},
-		"limitation": "ONE_SIDED_DOOR"
+        "condition": {}
     },
     {
         "from": "Reception - RPD",
@@ -69,14 +65,12 @@
         "to": "Operations Room 2",
         "condition": {
             "items": ["Bolt Cutters"]
-        },
-		"limitation": "ONE_SIDED_DOOR"
+        }
     },
     { 
         "from": "Operations Room",
         "to": "West Hallway 1F",
-        "condition": {},
-		"limitation": "ONE_SIDED_DOOR"
+        "condition": {}
     },
     { 
         "from": "Operations Room 2",
@@ -112,15 +106,15 @@
     },
     { 
         "from": "West Hallway 2F",
-        "to": "Shower Room"
+        "to": "Shower Room",
+        "condition": {}
     },
     { 
         "from": "Shower Room",
         "to": "STARS Office Hallway",
         "condition": {
             "items": ["Valve Handle"]
-        },
-		"limitation": "ONE_SIDED_DOOR"
+        }
     },
     { 
         "from": "STARS Office Hallway",
@@ -186,8 +180,7 @@
         "to": "East Hallway 1F",
         "condition": {
             "items": ["Bolt Cutters"]
-        },
-        "limitation": "ONE_SIDED_DOOR"
+        }
     },
     { 
         "from": "West Hallway 1F",
@@ -209,8 +202,7 @@
         "to": "Main Hall 3F",
         "condition": {
             "items": ["Mechanic Jack Handle"]
-        },
-		"limitation": "ONE_SIDED_DOOR"
+        }
     },
     {
         "from": "Main Hall 3F",
@@ -224,8 +216,7 @@
         "to": "East Storage Room",
         "condition": {
             "items": ["Mechanic Jack Handle"]
-        },
-		"limitation": "ONE_SIDED_DOOR"
+        }
     },
     { 
         "from": "East Storage Room",
@@ -243,8 +234,7 @@
         "to": "Secret Room",
         "condition": {
             "items": ["Lion Medallion", "Unicorn Medallion", "Maiden Medallion", "Spade Key", "Bolt Cutters"]
-        },
-		"limitation": "ONE_SIDED_DOOR"
+        }
     },
     { 
         "from": "Secret Room",
@@ -254,8 +244,7 @@
     { 
         "from": "Underground Stairs",
         "to": "Machinery Room",
-        "condition": {},
-		"limitation": "ONE_SIDED_DOOR"
+        "condition": {}
     },
     { 
         "from": "Machinery Room",
@@ -344,27 +333,23 @@
         "from": "Parking Garage",
         "to": "RPD Streets",
         "condition": {
-            "items": ["Boxed Electronic Part 1", "Boxed Electronic Part 2", "Parking Garage Key Card"]
-        },
-        "limitation": "ONE_SIDED_DOOR"
+            "items": ["Boxed Electronic Part 1", "Boxed Electronic Part 2", "Parking Garage Key Card", "Heart Key", "Diamond Key"]
+        }
     },
     { 
         "from": "RPD Streets",
         "to": "Orphanage",
-        "condition": {},
-        "limitation": "ONE_SIDED_DOOR"
+        "condition": {}
     },
     { 
         "from": "Orphanage",
         "to": "Sewer Office",
-        "condition": {},
-        "limitation": "ONE_SIDED_DOOR"
+        "condition": {}
     },
     { 
         "from": "Sewer Office",
         "to": "Lower Waterway",
-        "condition": {},
-        "limitation": "ONE_SIDED_DOOR"
+        "condition": {}
     },
     { 
         "from": "Lower Waterway",
@@ -414,14 +399,12 @@
     { 
         "from": "Control Room",
         "to": "Monitor Room",
-        "condition": {},
-        "limitation": "ONE_SIDED_DOOR"
+        "condition": {}
     },
     { 
         "from": "Monitor Room",
         "to": "Treatment Pool Room",
-        "condition": {},
-        "limitation": "ONE_SIDED_DOOR"
+        "condition": {}
     },
     { 
         "from": "Treatment Pool Room",
@@ -440,8 +423,7 @@
         "to": "Main Power Room",
         "condition": {
             "items": ["Pawn Plug", "Knight Plug", "Bishop Plug", "Rook Plug", "Queen Plug", "King Plug"]
-        },
-        "limitation": "ONE_SIDED_DOOR"
+        }
     },
     { 
         "from": "Main Power Room",
@@ -463,8 +445,7 @@
     { 
         "from": "Cable Car Platform",
         "to": "Reception - Labs",
-        "condition": {},
-        "limitation": "ONE_SIDED_DOOR"
+        "condition": {}
     },
     { 
         "from": "Reception - Labs",
@@ -490,7 +471,7 @@
         "from": "Reception - Labs",
         "to": "Main Shaft",
         "condition": {
-            "items": ["Upgrade Chip (General Staff)"]
+            "items": ["Upgrade Chip - General Staff"]
         }
     },
     { 
@@ -554,7 +535,7 @@
         "from": "Main Shaft",
         "to": "Biotesting Lab",
         "condition": {
-            "items": ["Signal Modulator", "Upgrade Chip (Senior Staff)"]
+            "items": ["Signal Modulator", "Upgrade Chip - Senior Staff"]
         }
     },
     { 

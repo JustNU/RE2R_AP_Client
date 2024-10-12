@@ -181,7 +181,7 @@
     },
     {
         "type": "Key",
-        "name": "Upgrade Chip (General Staff)",
+        "name": "Upgrade Chip - General Staff",
         "groups": ["wristband", "bracelet", "id"],
         "decimal": "198",
         "count": 1,
@@ -189,7 +189,7 @@
     },
     {
         "type": "Key",
-        "name": "Upgrade Chip (Senior Staff)",
+        "name": "Upgrade Chip - Senior Staff",
         "groups": ["wristband", "bracelet", "id"],
         "decimal": "199",
         "count": 1,
@@ -200,20 +200,6 @@
         "name": "Upgrade Chip - Admin",
         "groups": ["wristband", "bracelet", "id"],
         "decimal": "186",
-        "count": 1,
-        "progression": 1
-    },
-    {
-        "type": "Key",
-        "name": "Trophy A",
-        "decimal": "191",
-        "count": 1,
-        "progression": 1
-    },
-    {
-        "type": "Key",
-        "name": "Trophy B",
-        "decimal": "190",
         "count": 1,
         "progression": 1
     },
@@ -653,7 +639,7 @@
         "decimal": "203",
         "count": 1,
         "progression": 0
-    }
+    },
 	{
         "type": "Lore",
         "name": "Film - Commemorative",
@@ -684,5 +670,19 @@
         "count": 1,
         "progression": 0,
         "comments": "I swapped a few of these around, I think they're right but I have been wrong before."
+    },
+	{
+        "type": "Lore",
+        "name": "Trophy A",
+        "decimal": "191",
+        "count": 1,
+        "progression": 0
+    },
+    {
+        "type": "Lore",
+        "name": "Trophy B",
+        "decimal": "190",
+        "count": 1,
+        "progression": 0
     }
 ]
