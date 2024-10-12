@@ -99,17 +99,17 @@ function Items.SetupInteractHook()
             end
 
             -- when Marvin's first cutscene plays, set a flag so we can remove the Main Hall shutter
-            if item_name == "CFPlayExtra_GoHall" and item_folder_path == "RopewayContents/World/Location_RPD/LocationLevel_RPD/Scenario/S02_0000/1FE/1FE_GoHall" then
-                Storage.talkedToMarvin = true
-            end
+            --if item_name == "CFPlayExtra_GoHall" and item_folder_path == "RopewayContents/World/Location_RPD/LocationLevel_RPD/Scenario/S02_0000/1FE/1FE_GoHall" then
+            --   Storage.talkedToMarvin = true
+            --end
 
             -- when Claire interacts with the Chief's door with the Heart Key, set a flag so we can remove the East Hallway 2F shutter (since she doesn't get square crank)
-            if 
-                item_name == "Door_2_1_120_control" and item_folder_path == "RopewayContents/World/Location_RPD/LocationLevel_RPD/LocationFsm_RPD/common/GeneralPurposeGimmicks/Door/2F" 
-                and Inventory.HasItemId(169)
-            then
-                Storage.openedChiefDoor = true
-            end
+            --if 
+            --    item_name == "Door_2_1_120_control" and item_folder_path == "RopewayContents/World/Location_RPD/LocationLevel_RPD/LocationFsm_RPD/common/GeneralPurposeGimmicks/Door/2F" 
+            --    and Inventory.HasItemId(169)
+            --then
+            --    Storage.openedChiefDoor = true
+            --end
 
             -- If we're starting Ada's part, get the trigger to end the Ada event, send Ada to it, and trigger it
             if location_to_check['item_object'] == 'CheckPoint_StartAdaPart' then
