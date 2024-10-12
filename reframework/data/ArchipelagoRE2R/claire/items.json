@@ -451,7 +451,7 @@
         "name": "SLS 60",
         "groups": ["pistol", "light_gun"],
         "decimal": "9",
-        "count": 10,
+        "count": 5,
         "progression": 0,
         "ammo": "Handgun Ammo"
     },
@@ -460,16 +460,34 @@
         "name": "Quickdraw Army",
         "groups": ["pistol", "light_gun"],
         "decimal": "4",
-        "count": 10,
+        "count": 6,
         "progression": 0,
         "ammo": "Large-Caliber Handgun Ammo"
+    },
+	{
+        "type": "Weapon",
+        "name": "MUP",
+        "groups": ["pistol", "light_gun"],
+        "decimal": "7",
+        "count": 16,
+        "progression": 0,
+        "ammo": "Handgun Ammo"
+    },
+	{
+        "type": "Weapon",
+        "name": "Broom Hc",
+        "groups": ["pistol", "light_gun"],
+        "decimal": "8",
+        "count": 9,
+        "progression": 0,
+        "ammo": "Handgun Ammo"
     },
     {
         "type": "Weapon",
         "name": "GM 79",
         "groups": ["grenade", "grenade launcher", "medium_gun"],
         "decimal": "42",
-        "count": 0,
+        "count": 1,
         "progression": 0,
         "ammo": "Flame Rounds"
     },
@@ -478,7 +496,7 @@
         "name": "JMB Hp3",
         "groups": ["pistol", "medium_gun"],
         "decimal": "3",
-        "count": 10,
+        "count": 13,
         "progression": 0,
         "ammo": "Handgun Ammo"
     },
@@ -534,7 +552,7 @@
         "type": "Ammo",
         "name": "Handgun Ammo",
         "decimal": "15",
-        "count": 10,
+        "count": 25,
         "progression": 0
     },
     {
@@ -548,14 +566,14 @@
         "type": "Ammo",
         "name": "Needle Cartridges",
         "decimal": "24",
-        "count": 4,
+        "count": 7,
         "progression": 0
     },
     {
         "type": "Ammo",
         "name": "Large-Caliber Handgun Ammo",
         "decimal": "26",
-        "count": 6,
+        "count": 12,
         "progression": 0
     },
     {
@@ -569,14 +587,14 @@
         "type": "Ammo",
         "name": "Flame Rounds",
         "decimal": "23",
-        "count": 2,
+        "count": 3,
         "progression": 0
     },
     {
         "type": "Ammo",
         "name": "Acid Rounds",
         "decimal": "22",
-        "count": 2,
+        "count": 3,
         "progression": 0
     },
 
