@@ -318,7 +318,7 @@
         "from": "Balcony",
         "to": "Roof",
         "condition": {
-            "items": ["Lion Medallion", "Unicorn Medallion", "Maiden Medallion"]
+            "items": ["Lion Medallion", "Unicorn Medallion", "Maiden Medallion", "Heart Key", "Diamond Key"]
         }
     },
     { 
