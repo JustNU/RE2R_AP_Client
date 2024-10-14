@@ -13,13 +13,21 @@ function Items.Init()
         Items.SetupDisconnectWaitHook()
         Items.SetupSafeUIHook()
         Items.SetupStatueUIHook()
+		
+		local EquipmentManager = sdk.get_managed_singleton(sdk.game_namespace("EquipmentManager"))
+		local WeaponBulletUserdata = EquipmentManager:get_field("_WeaponBulletUserdata")
+		local LoadingPartsCombos = WeaponBulletUserdata:get_field("_LoadingPartsCombos")
+		local Le5Element = LoadingPartsCombos:get_element(11)
+		local gotLoadingPartsCombos = Le5Element:call("get_LoadingPartsCombos()")
+		local LoadingPartsCombination = gotLoadingPartsCombos:get_element(0)
+		LoadingPartsCombination:call("set_AlwaysReloadableForm", false)
+		LoadingPartsCombination:call("set_AlwaysReloadableVariableForm", "00000000-0000-0000-0000-000000000000")
     end
 end
 
 function Items.SetupInteractHook()
     local interactType = sdk.find_type_definition(sdk.game_namespace("gimmick.action.FeedbackFSM"))
     local interact_method = interactType:get_method("execute")
-
     -- main item hook, does all the AP stuff
     sdk.hook(interact_method, function(args)
         feedbackFSM = sdk.to_managed_object(args[2])
