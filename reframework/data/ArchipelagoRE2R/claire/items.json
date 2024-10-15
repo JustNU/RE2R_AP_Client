@@ -459,6 +459,15 @@
     },
     {
         "type": "Weapon",
+        "name": "LE 5",
+        "groups": ["medium_gun"],
+        "decimal": "23",
+        "count": 32,
+        "progression": 0,
+        "ammo": "Submachine Gun Ammo"
+    },
+    {
+        "type": "Weapon",
         "name": "Spark Shot",
         "groups": ["heavy_gun"],
         "decimal": "44",
