@@ -499,7 +499,7 @@
         "item_object": "sm70_205",
         "parent_object": "sm70_205_Gunpowder",
         "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/2F/2FW/LinenRoom",
-        "forbid_item": ["Heart Key", "Diamond Key", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle", "Sewers Key"]
+        "forbid_item": ["Unicorn Medallion", "Lion Medallion", "Maiden Medallion", "Heart Key", "Diamond Key", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle", "Sewers Key"]
     },
     {
         "name": "Location 2",
@@ -509,7 +509,7 @@
         "item_object": "sm77_002",
         "parent_object": "sm77_002_portablesafe_sm73_133_blankkey",
         "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/2F/2FW/LinenRoom",
-        "forbid_item": ["Heart Key", "Diamond Key", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle", "Sewers Key"]
+        "forbid_item": ["Unicorn Medallion", "Lion Medallion", "Maiden Medallion", "Heart Key", "Diamond Key", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle", "Sewers Key"]
     },
     {
         "name": "Side Table",
@@ -1199,7 +1199,7 @@
         "item_object": "sm70_208",
         "parent_object": "ItemPositions_NormalLocker_1FE1",
         "folder_path": "RopewayContents/World/Location_RPD/LocationLevel_RPD/Item/common/Claire_common/1F/1FE/CorriderB/Locker_sm70_208_Claireyakueki",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle", "Sewers Key"]
+        "forbid_item": ["Heart Key", "Diamond Key", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle", "Sewers Key"]
     },
     {
         "name": "Downed Zombie",
@@ -1563,7 +1563,7 @@
         "item_object": "sm70_100",
         "parent_object": "sm70_100_ww_1_01",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/HundGun",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
     },
     {
         "name": "In Front of Gate",
@@ -1573,7 +1573,7 @@
         "item_object": "sm70_112",
         "parent_object": "sm70_112_ww_3_01",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/Claire_common/Magnum",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
     },
     {
         "name": "Downed Zombie",
@@ -1583,7 +1583,7 @@
         "item_object": "sm73_405",
         "parent_object": "VIdeo_1A",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/KeyItem",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
     },
     {
         "name": "Locker",
@@ -1593,7 +1593,7 @@
         "item_object": "sm70_100",
         "parent_object": "ItemPositions_locker04",
         "folder_path": "RopewayContents/World/Location_WasteWater/Environments/st3_615_0/gimmick",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
     },
     {
         "name": "On Table",
@@ -1603,7 +1603,7 @@
         "item_object": "sm70_205",
         "parent_object": "sm70_205_ww_3",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/Gunpowder",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
     },
     {
         "name": "Down Elevator",
@@ -1613,7 +1613,7 @@
         "item_object": "sm70_112",
         "parent_object": "sm70_112_ww_2",
         "folder_path": "RopewayContents/World/Location_RPD_B1/LocationLevel_RPD_B1/Item/common/Claire_common/Mugnum_Claire",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
     },
     {
         "name": "Table Location 1",
@@ -1623,7 +1623,7 @@
         "item_object": "sm70_206",
         "parent_object": "sm70_206_ww_1_01",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/Gunpowder_BIG",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
     },
     {
         "name": "Table Location 2",
@@ -1633,7 +1633,7 @@
         "item_object": "sm70_208",
         "parent_object": "sm70_208_ww_2",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/Claire_common/Chemical_claire",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
     },
     {
         "name": "Before the Waterslide",
@@ -1643,7 +1643,7 @@
         "item_object": "WP4500",
         "parent_object": "WP4500_1_ww_01",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/Knife",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle"]
     },
     {
         "name": "Before Left Path",
@@ -1793,7 +1793,7 @@
         "item_object": "sm70_112",
         "parent_object": "sm70_112_ww_2",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/Claire_common/Magnum",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
     },
     {
         "name": "Left Table",
@@ -1803,7 +1803,7 @@
         "item_object": "sm74_200",
         "parent_object": "Sidepack",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
     },
     {
         "name": "Middle Table",
@@ -1813,7 +1813,7 @@
         "item_object": "sm72_200",
         "parent_object": "Film_01",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/KeyItem",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
     },
     {
         "name": "Rook Panel Outside",
@@ -1824,7 +1824,7 @@
         "parent_object": "ItemPositions_1",
         "folder_path": "RopewayContents/World/Location_WasteWater/Environments/st3_611_0/gimmick",
 		"randomized": 0,
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
     },
     {
         "name": "Right Table",
@@ -1834,7 +1834,7 @@
         "item_object": "sm70_100",
         "parent_object": "sm70_100_ww_1",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/HundGun",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
     },
     {
         "name": "Keys Panel",
@@ -1844,7 +1844,7 @@
         "item_object": "sm73_429",
         "parent_object": "Key_Gesui_ura",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/KeyItem",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
     },
     {
         "name": "Before Climb",
@@ -1854,7 +1854,7 @@
         "item_object": "sm70_001",
         "parent_object": "sm70_001_ww_2_01",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/green_herb",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
     },
     {
         "name": "Left of 2nd Mutant",
@@ -1864,7 +1864,7 @@
         "item_object": "sm70_102",
         "parent_object": "sm70_102_ww_3",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/Claire_common/SubMachineGun",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
     },
     {
         "name": "Shelves 1",
@@ -1874,7 +1874,7 @@
         "item_object": "sm70_002",
         "parent_object": "sm70_002_ww_1",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/red_herb",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
     },
     {
         "name": "Queen Panel",
@@ -1885,7 +1885,7 @@
         "parent_object": "ItemPositions_3",
         "folder_path": "RopewayContents/World/Location_WasteWater/Environments/st3_625_0/gimmick",
 		"randomized": 0,
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
     },
     {
         "name": "King Panel",
@@ -1896,7 +1896,7 @@
         "parent_object": "ItemPositions_2",
         "folder_path": "RopewayContents/World/Location_WasteWater/Environments/st3_625_0/gimmick",
         "randomized": 0,
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
     },
     {
         "name": "Box Downstairs From King Plug",
@@ -1906,7 +1906,7 @@
         "item_object": "sm70_003",
         "parent_object": "sm70_003_ww_4",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/blue_herb",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
     },
     {
         "name": "Weapon Cage",
@@ -1916,7 +1916,7 @@
         "item_object": "WP4300",
         "parent_object": "WP_SparkShot",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/Claire_common",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug"]
     },
     {
         "name": "Stairs After Chess Puzzle",
@@ -1926,7 +1926,7 @@
         "item_object": "sm70_003",
         "parent_object": "sm70_003_ww_4_01",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/G2Area",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "Sewers Key"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "Sewers Key"]
     },
     {
         "name": "By Railing",
@@ -1936,7 +1936,7 @@
         "item_object": "sm70_001",
         "parent_object": "sm70_001_ww_1",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/G2Area",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "Sewers Key"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "Sewers Key"]
     },
     {
         "name": "By Power Panel",
@@ -1946,7 +1946,7 @@
         "item_object": "sm70_002",
         "parent_object": "ItemPositions-sm70-002",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/G2Area",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "Sewers Key"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "Sewers Key"]
     },
     {
         "name": "Location 1",
@@ -1956,7 +1956,7 @@
         "item_object": "sm70_102",
         "parent_object": "ItemPositions-sm70-102",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/Claire_common/G2Area_Claire",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "Sewers Key"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "Sewers Key"]
     },
     {
         "name": "Location 2",
@@ -1966,7 +1966,7 @@
         "item_object": "sm70_100",
         "parent_object": "ItemPositions-sm70-100-1",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/G2Area",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "Sewers Key"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "Sewers Key"]
     },
     {
         "name": "Location 3",
@@ -1976,7 +1976,7 @@
         "item_object": "WP6300",
         "parent_object": "ItemPositions-WP6300",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/G2Area",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "Sewers Key"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "Sewers Key"]
     },
     {
         "name": "Location 4",
@@ -1986,7 +1986,7 @@
         "item_object": "WP4500",
         "parent_object": "WP4500_G2",
         "folder_path": "RopewayContents/World/Location_WasteWater/LocationLevel_WasteWater/Item/common/G2Area",
-        "forbid_item": ["ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "Sewers Key"]
+        "forbid_item": ["T-Bar Handle", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "Sewers Key"]
     },
     {
         "name": "Sherry's Wristband",
