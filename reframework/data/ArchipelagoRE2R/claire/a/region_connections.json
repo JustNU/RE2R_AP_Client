@@ -201,7 +201,7 @@
         "from": "Library",
         "to": "Main Hall 3F",
         "condition": {
-            "items": ["Mechanic Jack Handle"]
+            "items": ["Mechanic Jack Handle", "Spade Key"]
         }
     },
     {

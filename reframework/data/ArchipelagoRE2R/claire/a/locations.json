@@ -432,7 +432,7 @@
         "forbid_item": ["Heart Key", "Diamond Key", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle", "Sewers Key"]
     },
     {
-        "name": "Small Office Desk",
+        "name": "Albert's Desk",
         "region": "STARS Office",
         "original_item": "Battery",
         "condition": {},    
@@ -442,7 +442,7 @@
         "forbid_item": ["Heart Key", "Diamond Key", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle", "Sewers Key"]
     },
     {
-        "name": "Desks 1",
+        "name": "Desk In Front Of Arsenal",
         "region": "STARS Office",
         "original_item": "Flame Rounds",
         "condition": {},    
@@ -452,7 +452,7 @@
         "forbid_item": ["Heart Key", "Diamond Key", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle", "Sewers Key"]
     },
     {
-        "name": "Desks 2",
+        "name": "Opposite of Chris' Desk",
         "region": "STARS Office",
         "original_item": "Flash Grenade",
         "condition": {},    
@@ -462,7 +462,7 @@
         "forbid_item": ["Heart Key", "Diamond Key", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle", "Sewers Key"]
     },
     {
-        "name": "Desks 3",
+        "name": "Rebecca's Med Bag",
         "region": "STARS Office",
         "original_item": "First Aid Spray",
         "condition": {},    
@@ -472,7 +472,7 @@
         "forbid_item": ["Heart Key", "Diamond Key", "ID Wristband - Visitor", "Upgrade Chip - General Staff", "Upgrade Chip - Senior Staff", "Upgrade Chip - Admin", "Signal Modulator", "Dispersal Cartridge - Empty", "Joint Plug", "T-Bar Handle", "Sewers Key"]
     },
     {
-        "name": "Desks 4",
+        "name": "Corner Desk",
         "region": "STARS Office",
         "original_item": "High-Grade Gunpowder - White",
         "condition": {},    
