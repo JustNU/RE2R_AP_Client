@@ -15,6 +15,13 @@
     },
     {
         "type": "Key",
+        "name": "Lovers Relief",
+        "decimal": "128",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Key",
         "name": "Diamond Key",
         "decimal": "119",
         "count": 1,
@@ -260,6 +267,13 @@
         "decimal": "88",
         "count": 1,
         "progression": 1
+    },    
+	{
+        "type": "Gating",
+        "name": "Red Jewel",
+        "decimal": "90",
+        "count": 1,
+        "progression": 1
     },
     {
         "type": "Gating",
@@ -300,6 +314,13 @@
     },
     {
         "type": "Gating",
+        "name": "Tin Storage Box (Car Key)",
+        "decimal": "293",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Gating",
         "name": "Large Gear",
         "groups": ["gear"],
         "decimal": "130",
@@ -318,6 +339,13 @@
         "type": "Gating",
         "name": "Dispersal Cartridge - Empty",
         "decimal": "179",
+        "count": 1,
+        "progression": 1
+    },
+    {
+        "type": "Gating",
+        "name": "Film - Hiding Place",
+        "decimal": "72",
         "count": 1,
         "progression": 1
     },
@@ -573,7 +601,7 @@
     },
     {
         "type": "Upgrade",
-        "name": "Laser Sight (JMB Hp3)",
+        "name": "Laser Sight - JMB Hp3",
         "upgrades": "JMB Hp3",
         "decimal": "52",
         "count": 1,
@@ -589,9 +617,9 @@
     },
     {
         "type": "Upgrade",
-        "name": "High Capacity Mag - MQ 11",
+        "name": "Wooden Box (High Capacity Mag - MQ 11)",
         "upgrades": "MQ 11",
-        "decimal": "58",
+        "decimal": "295",
         "count": 1,
         "progression": 0
     },
@@ -661,6 +689,14 @@
         "type": "Lore",
         "name": "Film - Lion Statue",
         "decimal": "76",
+        "count": 1,
+        "progression": 0,
+        "comments": "I swapped a few of these around, I think they're right but I have been wrong before."
+    },
+    {
+        "type": "Lore",
+        "name": "Tin Storage Box (Film - Lion Statue)",
+        "decimal": "296",
         "count": 1,
         "progression": 0,
         "comments": "I swapped a few of these around, I think they're right but I have been wrong before."
