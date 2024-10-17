@@ -21,17 +21,6 @@ function DestroyObjects.DestroyAll()
         DestroyObjects.GetSherrysKey()
     }
 
-    -- if we talked to Marvin, remove the shutter and the panel interact that lets you put a fuse in it to open the shutter
-    if Storage.talkedToMarvin then
-        table.insert(destroyables, DestroyObjects.GetMainHallShutter())
-        table.insert(destroyables, DestroyObjects.GetMainHallShutterFusePanel())
-    end
-
-    -- if we opened the Chief door with Heart Key as Claire, remove the East Hallway 2F shutter
-    if Storage.openedChiefDoor then
-        table.insert(destroyables, DestroyObjects.GetEastHallway2FShutter())
-    end
-
     for k, obj in pairs(destroyables) do
         if obj ~= nil then
             obj:call("destroy", obj)
@@ -49,18 +38,6 @@ end
 
 function DestroyObjects.GetSherrysKey()
     return Scene.getSceneObject():findGameObject("OrphanAsylum_PlayEvent_CF360")
-end
-
-function DestroyObjects.GetMainHallShutter()
-    return Scene.getSceneObject():findGameObject("sm60_033_PipeShutter01A_gimmick")
-end
-
-function DestroyObjects.GetMainHallShutterFusePanel()
-    return Scene.getSceneObject():findGameObject("sm42_167_FuseBox01A_control")
-end
-
-function DestroyObjects.GetEastHallway2FShutter()
-    return Scene.getSceneObject():findGameObject("sm42_003_FireShutter01A_gimmick")
 end
 
 return DestroyObjects
