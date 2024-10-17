@@ -13,15 +13,15 @@ function Items.Init()
         Items.SetupDisconnectWaitHook()
         Items.SetupSafeUIHook()
         Items.SetupStatueUIHook()
-		
-		local EquipmentManager = sdk.get_managed_singleton(sdk.game_namespace("EquipmentManager"))
-		local WeaponBulletUserdata = EquipmentManager:get_field("_WeaponBulletUserdata")
-		local LoadingPartsCombos = WeaponBulletUserdata:get_field("_LoadingPartsCombos")
-		local Le5Element = LoadingPartsCombos:get_element(11)
-		local gotLoadingPartsCombos = Le5Element:call("get_LoadingPartsCombos()")
-		local LoadingPartsCombination = gotLoadingPartsCombos:get_element(0)
-		LoadingPartsCombination:call("set_AlwaysReloadableForm", false)
-		LoadingPartsCombination:call("set_AlwaysReloadableVariableForm", "00000000-0000-0000-0000-000000000000")
+        
+        local EquipmentManager = sdk.get_managed_singleton(sdk.game_namespace("EquipmentManager"))
+        local WeaponBulletUserdata = EquipmentManager:get_field("_WeaponBulletUserdata")
+        local LoadingPartsCombos = WeaponBulletUserdata:get_field("_LoadingPartsCombos")
+        local Le5Element = LoadingPartsCombos:get_element(11)
+        local gotLoadingPartsCombos = Le5Element:call("get_LoadingPartsCombos()")
+        local LoadingPartsCombination = gotLoadingPartsCombos:get_element(0)
+        LoadingPartsCombination:call("set_AlwaysReloadableForm", false)
+        LoadingPartsCombination:call("set_AlwaysReloadableVariableForm", "00000000-0000-0000-0000-000000000000")
     end
 end
 
@@ -66,6 +66,14 @@ function Items.SetupInteractHook()
                 end
             end
         end
+        
+        log.debug("----------------------------------------")
+        log.debug("item name is " ..tostring(item_name))
+        log.debug("item folder is " ..tostring(item_folder))
+        log.debug("item folder path is " ..tostring(item_folder_path))
+        log.debug("item parent name is " ..tostring(item_parent_name))
+        log.debug("item position is " ..tostring(item_positions))
+        log.debug("----------------------------------------")
 
         -- nothing to do with AP if not connected
         if not Archipelago.IsConnected() then
@@ -77,6 +85,11 @@ function Items.SetupInteractHook()
             end
 
             return
+        end
+        
+        -- force exit leon's desk reward UI
+        if item_name == "sm44_006_LeonDesk01A_control" then
+            Items.cancelNextUI = true
         end
 
         -- if item_name and item_folder_path are not nil (even empty strings), do a location lookup to see if we should get an item
@@ -105,19 +118,6 @@ function Items.SetupInteractHook()
                 GUI.AddText("Warning: Once you leave for Labs, returning to Sewers can cause a softlock.")
                 GUI.AddText("It is recommended that you complete all of the checks in Sewers prior to leaving.")
             end
-
-            -- when Marvin's first cutscene plays, set a flag so we can remove the Main Hall shutter
-            --if item_name == "CFPlayExtra_GoHall" and item_folder_path == "RopewayContents/World/Location_RPD/LocationLevel_RPD/Scenario/S02_0000/1FE/1FE_GoHall" then
-            --   Storage.talkedToMarvin = true
-            --end
-
-            -- when Claire interacts with the Chief's door with the Heart Key, set a flag so we can remove the East Hallway 2F shutter (since she doesn't get square crank)
-            --if 
-            --    item_name == "Door_2_1_120_control" and item_folder_path == "RopewayContents/World/Location_RPD/LocationLevel_RPD/LocationFsm_RPD/common/GeneralPurposeGimmicks/Door/2F" 
-            --    and Inventory.HasItemId(169)
-            --then
-            --    Storage.openedChiefDoor = true
-            --end
 
             -- If we're starting Ada's part, get the trigger to end the Ada event, send Ada to it, and trigger it
             if location_to_check['item_object'] == 'CheckPoint_StartAdaPart' then
@@ -179,9 +179,6 @@ function Items.SetupInteractHook()
                     Items.cancelNextStatueUI = true
                     Items.lastInteractable = feedbackParent
                 end
-
-                -- local inputSystem = sdk.get_managed_singleton(sdk.game_namespace("InputSystem"))
-                -- inputSystem:MouseCancelPC() -- this is so hacky, lol
             end
         end
     end)
