@@ -26,7 +26,7 @@ function StartingWeapon.SwapTo(item_name)
         if item.name == item_name and item.type == "Weapon" and item.ammo ~= nil then
             item_ref = item
             item_number = item.decimal
-			item_ammo_count = item.count
+            item_ammo_count = item.count
             
             for k2, item2 in pairs(Lookups.items) do
                 if item2.name == item.ammo then
@@ -41,16 +41,11 @@ function StartingWeapon.SwapTo(item_name)
     end
 
     if item_ref and item_number then
-        local itemId, weaponId, weaponParts, bulletId, count = nil
+        local weaponId, bulletId, count = nil
 
-        itemId = -1
         weaponId = item_number
         
-		itemId2 = item_ammo
-		weaponId2 = -1
-		weaponParts2 = -1
-		bulletId2 = -1
-		count2 = item_ammo_count
+        bulletCount = item_ammo_count
 
         if item_ref.type == "Weapon" then
             bulletId = item_ammo
@@ -63,9 +58,11 @@ function StartingWeapon.SwapTo(item_name)
         end
 
         -- item ids 1 and 9 are the Matilda and SLS 60, or Leon's starting weapon and Claire's starting weapon, for both scenarios
-        Inventory.SwapItem(nil, { 1, 9 }, tonumber(itemId), tonumber(weaponId), weaponParts, bulletId, tonumber(count))
-		-- also replace ammo (hopefully)
-		Inventory.SwapItem({ 15 }, nil, tonumber(itemId2), tonumber(weaponId2), weaponParts2, bulletId2, tonumber(count2))
+        Inventory.SwapItem(nil, { 1, 9 }, nil, tonumber(weaponId), nil, tonumber(bulletId), tonumber(count))
+        -- also replace ammo
+        -- remove ammo first instead of swapping, since player can roll a 2 slot randomized starter, which would block the ammo slot
+        Inventory.RemoveItem({ 15 }, nil)
+        Inventory.AddItem(tonumber(item_ammo), -1, nil, nil, tonumber(bulletCount))
 
         Storage.swappedStartingWeapon = true
         GUI.AddTexts({
