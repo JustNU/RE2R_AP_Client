@@ -52,7 +52,7 @@
         "from": "Operations Room 2",
         "to": "Records Room",
         "condition": {
-            "items": ["Heart Key"]
+            "items": ["Lovers Relief"]
         }
     },
     { 
@@ -226,7 +226,7 @@
         "from": "East Storage Room",
         "to": "Small Storage Room",
         "condition": {
-            "items": ["Heart Key", "Diamond Key", "Mechanic Jack Handle"]
+            "items": ["Lovers Relief", "Diamond Key", "Mechanic Jack Handle"]
         }
     },
     { 
@@ -284,7 +284,7 @@
         "from": "Chief's Office",
         "to": "Side Stairs",
         "condition": {
-            "items": ["Heart Key"]
+            "items": ["Lovers Relief"]
         }
     },
     { 
@@ -301,14 +301,14 @@
         "from": "Side Stairs",
         "to": "Observation Room",
         "condition": {
-            "items": ["Heart Key", "Lion Medallion", "Unicorn Medallion", "Maiden Medallion"]
+            "items": ["Lovers Relief", "Lion Medallion", "Unicorn Medallion", "Maiden Medallion"]
         }
     },
     { 
         "from": "Side Stairs",
         "to": "Interrogation Room",
         "condition": {
-            "items": ["Heart Key"]
+            "items": ["Lovers Relief"]
         }
     },
     { 
@@ -320,7 +320,7 @@
         "from": "Balcony",
         "to": "Roof",
         "condition": {
-            "items": ["Lion Medallion", "Unicorn Medallion", "Maiden Medallion", "Heart Key", "Diamond Key"]
+            "items": ["Lion Medallion", "Unicorn Medallion", "Maiden Medallion", "Lovers Relief", "Diamond Key"]
         }
     },
     { 
@@ -333,7 +333,7 @@
         "from": "Parking Garage",
         "to": "RPD Streets",
         "condition": {
-            "items": ["Boxed Electronic Part 1", "Boxed Electronic Part 2", "Parking Garage Key Card", "Heart Key", "Diamond Key"]
+            "items": ["Boxed Electronic Part 1", "Boxed Electronic Part 2", "Parking Garage Key Card", "Lovers Relief", "Diamond Key"]
         }
     },
     { 
