@@ -2,8 +2,6 @@ local Storage = {}
 Storage.storageInitialized = false
 Storage.lastReceivedItemIndex = -1
 Storage.lastSavedItemIndex = -1
-Storage.talkedToMarvin = false
-Storage.openedChiefDoor = false
 
 function Storage.Load()
     local existing_file = json.load_file(Storage.GetFilePath())
@@ -64,8 +62,6 @@ function Storage.Reset()
     Storage.storageInitialized = false
     Storage.lastReceivedItemIndex = -1
     Storage.lastSavedItemIndex = -1
-    Storage.talkedToMarvin = false
-    Storage.openedChiefDoor = false
     Storage.swappedStartingWeapon = false
 end
 
