@@ -145,4 +145,44 @@ function Inventory.SwapItem(fromItemIds, fromWeaponIds, itemId, weaponId, weapon
     return false
 end
 
+function Inventory.RemoveItem(fromItemIds, fromWeaponIds)
+    local inventoryManager = sdk.get_managed_singleton(sdk.game_namespace("gamemastering.InventoryManager"))
+    local playerInventory = inventoryManager:get_CurrentInventory()
+    local playerInventorySlots = playerInventory:get_field("_Slots")
+    local playerCurrentMaxSlots = playerInventory:get_field("_CurrentSlotSize")
+    local mItems = playerInventorySlots:get_field("mItems")
+    local items = {}
+    
+    for i, item in pairs(mItems:get_elements()) do
+        if item ~= nil then
+            local slotItemId = item:call("get_ItemID()")
+            local slotWeaponId = item:call("get_WeaponType()")
+            local slotIndex = item:get_Index()
+
+            if fromItemIds then
+                for k, fromItemId in pairs(fromItemIds) do
+                    if slotItemId == fromItemId then
+                        playerInventory:setSlot(slotIndex, 0, 0, 0, 0)
+            
+                        return true
+                    end
+                end
+            end
+
+            if fromWeaponIds then
+                for k, fromWeaponId in pairs(fromWeaponIds) do
+                    if slotWeaponId == fromWeaponId then
+                        local set_slot_weapon_string = "setSlot(System.Int32, " .. sdk.game_namespace("EquipmentDefine.WeaponType") .. ", " .. sdk.game_namespace("EquipmentDefine.WeaponParts") .. ", " .. sdk.game_namespace("gamemastering.Item.ID") .. ", System.Int32, " .. sdk.game_namespace("gamemastering.InventoryManager.ItemExData") .. ")"
+                        playerInventory:call(set_slot_weapon_string, slotIndex, 0, 0, 0, 0, 0)
+						
+                        return true
+                    end
+                end
+            end
+        end
+    end
+
+    return false
+end
+
 return Inventory
