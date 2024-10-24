@@ -35,6 +35,7 @@ function Items.SetupInteractHook()
         
         item_name = feedbackParent:call("get_Name()")
         item_folder = feedbackParent:call("get_Folder()")
+		item_tag = feedbackParent:call("get_Tag()")
         item_folder_path = nil
         item_parent_name = nil
 
@@ -70,6 +71,7 @@ function Items.SetupInteractHook()
         log.debug("----------------------------------------")
         log.debug("item name is " ..tostring(item_name))
         log.debug("item folder is " ..tostring(item_folder))
+        log.debug("item tags are " ..tostring(item_tag))
         log.debug("item folder path is " ..tostring(item_folder_path))
         log.debug("item parent name is " ..tostring(item_parent_name))
         log.debug("item position is " ..tostring(item_positions))
@@ -89,6 +91,16 @@ function Items.SetupInteractHook()
         
         -- force exit leon's desk reward UI
         if item_name == "sm44_006_LeonDesk01A_control" then
+            Items.cancelNextUI = true
+        end
+		
+		-- force exit wesker's desk reward UI
+        if item_name == "sm44_004_WeskerDesk01A_control" then
+            Items.cancelNextUI = true
+        end
+		
+		-- force exit press room's drawer reward UI
+        if item_name == "Test_2_1_DrawerDesk_1FE1_control" then
             Items.cancelNextUI = true
         end
 
