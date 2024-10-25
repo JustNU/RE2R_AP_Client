@@ -22,36 +22,16 @@ function Lookups.Load(character, scenario, difficulty)
     character = string.lower(character)
     scenario = string.lower(scenario)
 
-    local leon_file = Lookups.filepath .. "/leon/items.json"
-    local claire_file = Lookups.filepath .. "/claire/items.json"
+    local items_file = Lookups.filepath .. "items.json"
     local location_file = Lookups.filepath .. character .. "/" .. scenario .. "/locations.json"
     local location_hardcore_file = Lookups.filepath .. character .. "/" .. scenario .. "/locations_hardcore.json"
     local typewriter_file = Lookups.filepath .. character .. "/" .. scenario .. "/typewriters.json"
 
-    -- Load all items from the current character, and a subset of items from the other character 
-    --     to support weapon rando without introducing item name collisions
+    -- Load all items
 
-    local base_items_file = nil
-    local extra_items_file = nil
-
-    if string.lower(Lookups.character) == 'claire' then
-        base_items_file = claire_file
-        extra_items_file = leon_file
-    else
-        base_items_file = leon_file
-        extra_items_file = claire_file
-    end
+    local base_items_file = items_file
 
     Lookups.items = json.load_file(base_items_file) or {}
-    local extra_items = json.load_file(extra_items_file) or {}
-
-    for _, v in pairs(extra_items) do
-        if v['type'] == 'Weapon' or v['type'] == 'Subweapon' or v['type'] == 'Ammo' or v['type'] == 'Upgrade' or v['type'] == 'Consumable' then
-            table.insert(Lookups.items, v)
-        end
-    end
-
-    -- END item loading w/ weapon rando support
 
     Lookups.locations = json.load_file(location_file) or {}
     Lookups.typewriters = json.load_file(typewriter_file) or {}

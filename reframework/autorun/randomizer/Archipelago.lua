@@ -550,6 +550,10 @@ function Archipelago.ReceiveItem(item_name, sender, is_randomized)
         end
 		
 		if item_ref.type == "Ammo" then
+			--local ItemPositionsTypeDef = sdk.find_type_definition(sdk.game_namespace("item.ItemPositions"))
+			
+			--count = ItemPositionsTypeDef:call("calcBulletCountWithDifficulty", itemId, count)
+		
 			count = math.random(count)
 		end
 
@@ -595,10 +599,7 @@ function Archipelago.ReceiveItem(item_name, sender, is_randomized)
 
             -- sending weapons to inventory causes them to not work until boxed + retrieved, so send weapons to box always for now
             -- also send 2-slot wide items to box by default
-            if 
-                item_ref.type ~= "Weapon" and item_ref.type ~= "Subweapon" and Inventory.HasSpaceForItem() and
-                (item_name ~= "Large Gear" and item_name ~= "Joint Plug")
-            then
+            if item_ref.type ~= "Weapon" and item_ref.type ~= "Subweapon" and Inventory.HasSpaceForItem() and (item_name ~= "Large Gear" and item_name ~= "Joint Plug") then
                 local addedToInv = Inventory.AddItem(tonumber(itemId), tonumber(weaponId), weaponParts, bulletId, tonumber(count))
 
                 -- if adding to inventory failed, add it to the box as a backup

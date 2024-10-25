@@ -76,6 +76,15 @@ function Items.SetupInteractHook()
         log.debug("item parent name is " ..tostring(item_parent_name))
         log.debug("item position is " ..tostring(item_positions))
         log.debug("----------------------------------------")
+		
+		--local scene_manager = sdk.get_native_singleton("via.SceneManager")
+		--local scene_manager_type = sdk.find_type_definition("via.SceneManager")
+		--local scene = sdk.call_native_func(scene_manager, scene_manager_type, "get_CurrentScene")
+		
+		--log.debug(tostring(scene:call("findGameObject(System.Type)", RopewayContents/World/Location_RPD/LocationLevel_RPD/LocationFsm_RPD/S02_0200/2FE/ArtRoom/SophiaStatue/sm73_105")))
+		--call("getComponent(System.Type)", sdk.typeof(sdk.game_namespace("item.ItemPositions")))
+		
+		--item_positions:call('vanishItemAndSave()')
 
         -- nothing to do with AP if not connected
         if not Archipelago.IsConnected() then
