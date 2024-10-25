@@ -201,7 +201,7 @@
         "from": "Library",
         "to": "Main Hall 3F",
         "condition": {
-            "items": ["Mechanic Jack Handle", "Spade Key"]
+            "items": ["Mechanic Jack Handle"]
         }
     },
     {
@@ -233,7 +233,7 @@
         "from": "Main Hall",
         "to": "Secret Room",
         "condition": {
-            "items": ["Lion Medallion", "Unicorn Medallion", "Maiden Medallion", "Spade Key", "Bolt Cutters"]
+            "items": ["Lion Medallion", "Unicorn Medallion", "Maiden Medallion", "Spade Key"]
         }
     },
     { 
