@@ -187,7 +187,7 @@
     },
     {
         "type": "Key",
-        "name": "ID Wristband - Visitor",
+        "name": "ID Wristband - Visitor (Claire)",
         "groups": ["wristband", "bracelet", "id"],
         "decimal": "200",
         "count": 1,

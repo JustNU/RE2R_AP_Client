@@ -4,6 +4,10 @@ Items.lastInteractable = nil
 Items.cancelNextUI = false
 Items.cancelNextSafeUI = false
 Items.cancelNextStatueUI = false
+Items.skipUiList = {}
+Items.skipUiList["sm44_006_LeonDesk01A_control"] = true
+Items.skipUiList["sm44_004_WeskerDesk01A_control"] = true
+Items.skipUiList["Test_2_1_DrawerDesk_1FE1_control"] = true
 
 function Items.Init()
     if not Items.isInit then
@@ -97,19 +101,9 @@ function Items.SetupInteractHook()
 
             return
         end
-        
-        -- force exit leon's desk reward UI
-        if item_name == "sm44_006_LeonDesk01A_control" then
-            Items.cancelNextUI = true
-        end
 		
-		-- force exit wesker's desk reward UI
-        if item_name == "sm44_004_WeskerDesk01A_control" then
-            Items.cancelNextUI = true
-        end
-		
-		-- force exit press room's drawer reward UI
-        if item_name == "Test_2_1_DrawerDesk_1FE1_control" then
+        -- force exit item pick up ui on some interactions
+        if Items.skipUiList[item_name] ~= nil then
             Items.cancelNextUI = true
         end
 
