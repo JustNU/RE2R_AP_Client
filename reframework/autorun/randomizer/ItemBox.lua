@@ -44,22 +44,34 @@ function ItemBox.GetItems()
         foundOpenSlot = false
 
         for i, item in pairs(mItems) do
-            defaultItem = item:get_field("DefaultItem")
-            -- ItemId, WeaponId, WeaponParts, BulletId, Count
+            if item ~= nil then
+                defaultItem = item:get_field("DefaultItem")
+                -- ItemId, WeaponId, WeaponParts, BulletId, Count
 
-            itemId = defaultItem:get_field("ItemId")
-            weaponId = defaultItem:get_field("WeaponId")
+                itemId = defaultItem:get_field("ItemId")
+                weaponId = defaultItem:get_field("WeaponId")
 
-            -- if we found an empty slot, the item list is complete
-            if itemId <= 0 and weaponId <= 0 then
-                return itemList
+                -- if we found an empty slot, the item list is complete
+                if itemId > 0 or weaponId > 0 then
+                    table.insert(itemList, item)
+                end
             end
-
-            table.insert(itemList, defaultItem)
         end
     end
 
     return itemList
+end
+
+function ItemBox.GetItemNames()
+    local itemNames = {}
+
+    for k, v in pairs(ItemBox.GetItems()) do
+        if v ~= nil then
+            table.insert(itemNames, v:call("getName()"))
+        end
+    end
+
+    return itemNames
 end
 
 function ItemBox.AddItem(itemId, weaponId, weaponParts, bulletId, count)
