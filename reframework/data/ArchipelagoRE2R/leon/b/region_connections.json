@@ -388,9 +388,7 @@
     { 
         "from": "Water Gate",
         "to": "Upper Waterway",
-        "condition": {
-            "items": ["Rook Plug"]
-        }
+        "condition": {}
     },
     { 
         "from": "Upper Waterway",
@@ -510,7 +508,7 @@
         "from": "Reception - Labs",
         "to": "Main Shaft",
         "condition": {
-            "items": ["ID Wristband - General Staff"]
+            "items": ["Upgrade Chip - General Staff"]
         }
     },
     { 
@@ -574,7 +572,7 @@
         "from": "Main Shaft",
         "to": "Biotesting Lab",
         "condition": {
-            "items": ["Signal Modulator", "ID Wristband - Senior Staff"]
+            "items": ["Signal Modulator", "Upgrade Chip - Senior Staff"]
         }
     },
     { 

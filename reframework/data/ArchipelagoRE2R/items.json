@@ -192,6 +192,14 @@
         "decimal": "200",
         "count": 1,
         "progression": 1
+    },    
+	{
+        "type": "Key",
+        "name": "ID Wristband - Visitor (Leon)",
+        "groups": ["wristband", "bracelet", "id"],
+        "decimal": "195",
+        "count": 1,
+        "progression": 1
     },
     {
         "type": "Key",
@@ -738,9 +746,9 @@
     },
     {
         "type": "Upgrade",
-        "name": "Red Dot Sight - Lightning Hawk",
+        "name": "Wooden Box (Red Dot Sight - Lightning Hawk)",
         "upgrades": "Lightning Hawk",
-        "decimal": "61",
+        "decimal": "294",
         "count": 1,
         "progression": 0
     },
