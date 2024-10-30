@@ -8,6 +8,7 @@ Items.skipUiList = {}
 Items.skipUiList["sm44_006_LeonDesk01A_control"] = true
 Items.skipUiList["sm44_004_WeskerDesk01A_control"] = true
 Items.skipUiList["Test_2_1_DrawerDesk_1FE1_control"] = true
+Items.skipUiList["sm42_222_SprayingMachine01A_control"] = true
 
 function Items.Init()
     if not Items.isInit then
@@ -17,15 +18,7 @@ function Items.Init()
         Items.SetupDisconnectWaitHook()
         Items.SetupSafeUIHook()
         Items.SetupStatueUIHook()
-        
-        local EquipmentManager = sdk.get_managed_singleton(sdk.game_namespace("EquipmentManager"))
-        local WeaponBulletUserdata = EquipmentManager:get_field("_WeaponBulletUserdata")
-        local LoadingPartsCombos = WeaponBulletUserdata:get_field("_LoadingPartsCombos")
-        local Le5Element = LoadingPartsCombos:get_element(11)
-        local gotLoadingPartsCombos = Le5Element:call("get_LoadingPartsCombos()")
-        local LoadingPartsCombination = gotLoadingPartsCombos:get_element(0)
-        LoadingPartsCombination:call("set_AlwaysReloadableForm", false)
-        LoadingPartsCombination:call("set_AlwaysReloadableVariableForm", "00000000-0000-0000-0000-000000000000")
+		Items.CustomizeWeapons()
     end
 end
 
@@ -89,7 +82,6 @@ function Items.SetupInteractHook()
 		--call("getComponent(System.Type)", sdk.typeof(sdk.game_namespace("item.ItemPositions")))
 		
 		--item_positions:call('vanishItemAndSave()')
-
         -- nothing to do with AP if not connected
         if not Archipelago.IsConnected() then
             log.debug("Archipelago is not connected.")
@@ -101,6 +93,16 @@ function Items.SetupInteractHook()
 
             return
         end
+		
+		-- make AT launcher use needle cartriges as ammo
+		-- lol
+		local currentItems = Inventory.GetCurrentItems()
+
+		for k, item in pairs(currentItems) do
+			if item:call("get_WeaponType()") == 49 then
+				item:call("set_BulletID", 24)
+			end
+		end
 		
         -- force exit item pick up ui on some interactions
         if Items.skipUiList[item_name] ~= nil then
@@ -335,6 +337,76 @@ function Items.SwapAllItemsTo(item_name)
             end
         end
     end
+end
+
+function Items.CustomizeWeapons()   
+    local EquipmentManager = sdk.get_managed_singleton(sdk.game_namespace("EquipmentManager"))
+    local WeaponBulletUserdata = EquipmentManager:get_field("_WeaponBulletUserdata")
+    local LoadingPartsCombos = WeaponBulletUserdata:get_field("_LoadingPartsCombos")
+	
+	-- LE 5
+    local Le5_Element = LoadingPartsCombos:get_element(11)
+    local Le5_LoadingPartsCombosArray = Le5_Element:call("get_LoadingPartsCombos()")
+    local Le5_LoadingPartsCombination = Le5_LoadingPartsCombosArray:get_element(0)
+    Le5_LoadingPartsCombination:set_field("_AlwaysReloadable", false)
+    Le5_LoadingPartsCombination:call("set_AlwaysReloadableForm", false)
+    Le5_LoadingPartsCombination:call("set_AlwaysReloadableVariableForm", "00000000-0000-0000-0000-000000000000")
+	
+    -- infinite minigun (has no proper reload anims, bugged and wont add ammo :c )
+	-- maybe trick via 
+	--local Le5Element2 = LoadingPartsCombos:get_element(38)
+	-- inifinite anti tank
+	--local Element = LoadingPartsCombos:get_element(37)
+	
+	-- samurai edge
+	local SeOg_Element = LoadingPartsCombos:get_element(29)
+    local SeOg_LoadingPartsCombosArray = SeOg_Element:call("get_LoadingPartsCombos()")
+    local SeOg_LoadingPartsCombination = SeOg_LoadingPartsCombosArray:get_element(0)
+    SeOg_LoadingPartsCombination:set_field("_AlwaysReloadable", false)
+    SeOg_LoadingPartsCombination:call("set_AlwaysReloadableForm", false)
+    SeOg_LoadingPartsCombination:call("set_AlwaysReloadableVariableForm", "00000000-0000-0000-0000-000000000000")
+	
+	-- ROCKET LAUNCHER c:<
+	-- changes ammo to use needle cartriges, needs second check 
+	local ATR_Element = LoadingPartsCombos:get_element(20)
+    local ATR_LoadingPartsCombosArray = ATR_Element:call("get_LoadingPartsCombos()")
+    local ATR_LoadingPartsCombination = ATR_LoadingPartsCombosArray:get_element(0)
+    ATR_LoadingPartsCombination:set_field("_Kind", 64)
+	
+    --LoadingPartsCombination:call("set_OverwriteKindForm", true)
+	--local logging0 = Element:call("get_WeaponType()")
+    --local logging1 = LoadingPartsCombination:call("get_Kind()")
+    --local logging2 = LoadingPartsCombination:call("get_KindForm()")
+    --local logging3 = LoadingPartsCombination:call("get_Number()")
+    --local logging4 = LoadingPartsCombination:call("get_NumberForm()")
+    --local logging5 = LoadingPartsCombination:call("get_InfinityVariableForm()")
+    --local logging6 = LoadingPartsCombination:call("get_OverwriteKindForm()")
+    --local logging7 = LoadingPartsCombination:call("get_OverwriteNumberForm()")
+    --local logging8 = LoadingPartsCombination:call("get_AlwaysReloadableForm()")
+    --local logging9 = LoadingPartsCombination:call("get_AlwaysReloadableVariableForm()")
+    --local logging13 = LoadingPartsCombination:call("get_AlwaysReloadableVariableForm()")
+    --local logging14 = LoadingPartsCombination:call("get_OverwriteNumber()")
+    --log.debug("get_WeaponType " ..tostring(logging0))
+    --log.debug("get_Kind " ..tostring(logging1))
+    --log.debug("get_KindForm " ..tostring(logging2))
+    --log.debug("get_Number " ..tostring(logging3))
+    --log.debug("get_NumberForm " ..tostring(logging4))
+    --log.debug("get_InfinityVariableForm " ..tostring(logging5))
+    --log.debug("get_OverwriteKindForm " ..tostring(logging6))
+    --log.debug("get_OverwriteNumberForm " ..tostring(logging7))
+    --log.debug("get_AlwaysReloadableForm " ..tostring(logging8))
+    --log.debug("get_AlwaysReloadableVariableForm " ..tostring(logging9))
+    --log.debug("get_NumberDisplayName " ..tostring(logging13))
+    --log.debug("get_OverwriteNumber " ..tostring(logging14))
+    --LoadingPartsCombination:set_field("_AlwaysReloadable", true)
+    --LoadingPartsCombination:call("set_AlwaysReloadableForm", false)
+    --LoadingPartsCombination:call("set_AlwaysReloadableVariableForm", "00000000-0000-0000-0000-000000000000")
+    --LoadingPartsCombination:call("set_InfinityForm", false)
+    --LoadingPartsCombination:call("set_InfinityVariableForm", "00000000-0000-0000-0000-000000000000")
+    --local gotLoadingPartsCombos = Le5Element:call("get_LoadingPartsCombos()")
+    --local LoadingPartsCombination = gotLoadingPartsCombos:get_element(0)
+    --LoadingPartsCombination:call("set_AlwaysReloadableForm", false)
+    --LoadingPartsCombination:call("set_AlwaysReloadableVariableForm", "00000000-0000-0000-0000-000000000000")
 end
 
 return Items

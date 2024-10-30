@@ -571,7 +571,7 @@ function Archipelago.ReceiveItem(item_name, sender, is_randomized)
 
         if item_ref.type == "Ammo" and Archipelago.ammo_pack_modifier ~= "None" then
             local pmod = Archipelago.ammo_pack_modifier -- typing is hard
-            local random_min = 1
+            local random_min = item_ref.minCount
             --local random_max = math.ceil(count * 1.5) -- originally did 2x here, but high rolls made things too easy, this balanced out some
             local random_max = count
 
