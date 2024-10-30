@@ -366,7 +366,7 @@
     },
 
     {
-        "type": "Consumable",
+        "type": "Lore",
         "name": "Wooden Boards",
         "decimal": "33",
         "count": 1,
@@ -592,6 +592,15 @@
     },
 	{
         "type": "Weapon",
+        "name": "Samurai Edge - Original Model",
+        "groups": ["pistol", "light_gun"],
+        "decimal": "82",
+        "count": 15,
+        "progression": 0,
+        "ammo": "Handgun Ammo"
+    },
+	{
+        "type": "Weapon",
         "name": "LE 5",
         "groups": ["medium_gun"],
         "decimal": "23",
@@ -599,6 +608,24 @@
         "progression": 0,
         "ammo": "Submachine Gun Ammo",
 		"highGradeGunpowder": "White"
+    },
+	{
+        "type": "Weapon",
+        "name": "Anti-tank Rocket (Uses Needle Cartriges)",
+        "groups": ["heavy_gun"],
+        "decimal": "49",
+        "count": 4,
+        "progression": 0,
+        "ammo": "Rocket Launcher Ammo (aka Needle Cartriges)"
+    },
+    {
+        "type": "Weapon",
+        "name": "Minigun (Has no additional ammo, good luck!)",
+        "groups": ["heavy_gun"],
+        "decimal": "50",
+        "count": 400,
+        "progression": 0,
+        "ammo": "Green Herb"
     },
 
     {
@@ -628,6 +655,7 @@
         "name": "Handgun Ammo",
         "decimal": "15",
         "count": 25,
+        "minCount": 3,
         "progression": 0
     },
     {
@@ -635,6 +663,7 @@
         "name": "Large-Caliber Handgun Ammo",
         "decimal": "26",
         "count": 12,
+        "minCount": 2,
         "progression": 0
     },
 	
@@ -643,6 +672,7 @@
         "name": "Shotgun Shells",
         "decimal": "16",
         "count": 4,
+        "minCount": 2,
         "progression": 0
     },
     {
@@ -650,6 +680,7 @@
         "name": "Flamethrower Fuel",
         "decimal": "25",
         "count": 400,
+        "minCount": 100,
         "progression": 0
     },
     {
@@ -657,6 +688,7 @@
         "name": "MAG Ammo",
         "decimal": "18",
         "count": 6,
+        "minCount": 2,
         "progression": 0
     },
 	
@@ -665,6 +697,7 @@
         "name": "High-Powered Rounds (SLS 60)",
         "decimal": "27",
         "count": 5,
+        "minCount": 2,
         "progression": 0
     },
     {
@@ -672,6 +705,15 @@
         "name": "Needle Cartridges",
         "decimal": "24",
         "count": 7,
+        "minCount": 3,
+        "progression": 0
+    },    
+	{
+        "type": "Ammo",
+        "name": "Rocket Launcher Ammo (aka Needle Cartriges)",
+        "decimal": "24",
+        "count": 2,
+        "minCount": 1,
         "progression": 0
     },
     {
@@ -679,6 +721,7 @@
         "name": "Submachine Gun Ammo",
         "decimal": "17",
         "count": 100,
+        "minCount": 50,
         "progression": 0
     },
     {
@@ -686,6 +729,7 @@
         "name": "Flame Rounds",
         "decimal": "23",
         "count": 3,
+        "minCount": 1,
         "progression": 0
     },
     {
@@ -693,6 +737,7 @@
         "name": "Acid Rounds",
         "decimal": "22",
         "count": 3,
+        "minCount": 1,
         "progression": 0
     },
 
