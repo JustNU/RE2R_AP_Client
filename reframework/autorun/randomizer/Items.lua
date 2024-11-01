@@ -19,6 +19,9 @@ function Items.Init()
         Items.SetupSafeUIHook()
         Items.SetupStatueUIHook()
 		Items.CustomizeWeapons()
+		
+		--ItemBox.AddItem(-1, 49, 0, 0, 4)
+		--ItemBox.AddItem(24, -1, 0, 0, 4)
     end
 end
 
@@ -345,6 +348,7 @@ function Items.CustomizeWeapons()
     local LoadingPartsCombos = WeaponBulletUserdata:get_field("_LoadingPartsCombos")
 	
 	-- LE 5
+	-- uninfinite LE 5
     local Le5_Element = LoadingPartsCombos:get_element(11)
     local Le5_LoadingPartsCombosArray = Le5_Element:call("get_LoadingPartsCombos()")
     local Le5_LoadingPartsCombination = Le5_LoadingPartsCombosArray:get_element(0)
@@ -353,12 +357,13 @@ function Items.CustomizeWeapons()
     Le5_LoadingPartsCombination:call("set_AlwaysReloadableVariableForm", "00000000-0000-0000-0000-000000000000")
 	
     -- infinite minigun (has no proper reload anims, bugged and wont add ammo :c )
-	-- maybe trick via 
-	--local Le5Element2 = LoadingPartsCombos:get_element(38)
+	-- maybe trick via on reload or something
+	--LoadingPartsCombos:get_element(38)
 	-- inifinite anti tank
-	--local Element = LoadingPartsCombos:get_element(37)
+	--LoadingPartsCombos:get_element(37)
 	
 	-- samurai edge
+	-- uninfinite samurai edge
 	local SeOg_Element = LoadingPartsCombos:get_element(29)
     local SeOg_LoadingPartsCombosArray = SeOg_Element:call("get_LoadingPartsCombos()")
     local SeOg_LoadingPartsCombination = SeOg_LoadingPartsCombosArray:get_element(0)
@@ -367,7 +372,8 @@ function Items.CustomizeWeapons()
     SeOg_LoadingPartsCombination:call("set_AlwaysReloadableVariableForm", "00000000-0000-0000-0000-000000000000")
 	
 	-- ROCKET LAUNCHER c:<
-	-- changes ammo to use needle cartriges, needs second check 
+	-- changes ammo to use needle cartriges (tis an enum, swhy it doesnt allign with the ammo id), 
+	-- that alone wont work and requires changet bullet id in already existing rocket launcher (is done above, in interact hook) 
 	local ATR_Element = LoadingPartsCombos:get_element(20)
     local ATR_LoadingPartsCombosArray = ATR_Element:call("get_LoadingPartsCombos()")
     local ATR_LoadingPartsCombination = ATR_LoadingPartsCombosArray:get_element(0)
