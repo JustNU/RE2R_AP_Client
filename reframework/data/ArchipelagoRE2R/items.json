@@ -614,7 +614,7 @@
         "name": "Anti-tank Rocket (Uses Needle Cartriges)",
         "groups": ["heavy_gun"],
         "decimal": "49",
-        "count": 4,
+        "count": 1,
         "progression": 0,
         "ammo": "Rocket Launcher Ammo (aka Needle Cartriges)"
     },
@@ -623,7 +623,7 @@
         "name": "Minigun (Has no additional ammo, good luck!)",
         "groups": ["heavy_gun"],
         "decimal": "50",
-        "count": 400,
+        "count": 600,
         "progression": 0,
         "ammo": "Green Herb"
     },

@@ -123,7 +123,6 @@
         "name": "Table",
         "region": "Guard Room",
         "original_item": "M19",
-        "force_item": "M19",
         "condition": {
             "items": [
                 "Bolt Cutters"
@@ -3106,7 +3105,6 @@
         "name": "Whiteboard",
         "region": "Boiler Room",
         "original_item": "Club Key",
-        "force_item": "Boxed Electronic Part 2",
         "condition": {},
         "item_object": "sm73_300",
         "parent_object": "sm73_300_ClubKey",
